@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  get 'ms_villagers/index'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root 'ms_villagers#show_villagers'
   get 'ms_villagers/show_villagers'
   get 'ms_villagers/calculate_villagers'
-  
+
 end
